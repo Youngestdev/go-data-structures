@@ -12,7 +12,7 @@ type LinkedStack struct {
 	count  int   // how many elements are present
 }
 
-// Size returns the number of elements in the LinkedStack
+//Size returns the number of elements in the LinkedStack
 func (s *LinkedStack) Size() int {
 	return s.count
 }
