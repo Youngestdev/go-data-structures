@@ -15,4 +15,10 @@ func main() {
 	fmt.Println(a.Index("Azeez"))
 	_, _ = a.Insert("Azeez")
 	fmt.Println(a.Size())
+	b := new(List.Node)
+	fmt.Println(b)
+	List.Enter(b, 50)
+	List.Enter(b, 60)
+	fmt.Println(b.Value, b.Next.Value)
+	List.Traverse(b)
 }
